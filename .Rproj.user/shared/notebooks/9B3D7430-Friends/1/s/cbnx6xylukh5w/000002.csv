@@ -1,0 +1,13 @@
+"0","sf <- Speakerd %>% "
+"0","  filter(Name == ""monica""|"
+"0","           Name == ""joey""|"
+"0","           Name == ""chandler""|"
+"0","           Name == ""phoebe""|"
+"0","           Name == ""ross"") "
+"0","  "
+"0","sf <- sf %>% "
+"0","  separate(Dialogue,into = c(as.character(1:max(sapply(strsplit(sf$Dialogue, "" ""), length)))), sep = "" "", remove = TRUE, convert = FALSE, fill = ""right"")"
+"2","Expected 528 pieces. Additional pieces discarded in 1 rows [11683]."
+"0","  sf[c(which(sf=="""")),] <- NA"
+"2","Error: cannot allocate vector of size 133.0 Mb
+"

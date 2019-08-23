@@ -1,0 +1,18 @@
+.nav_logo {
+  width: 100%;
+  margin-top: 50px;
+}
+
+h1 {
+	font-weight: bold;
+}
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    background-color: #e83536;
+    border-color: #e83536;
+    font-weight: bold;
+}
+
+blockquote {
+	font-size: 15px;
+}

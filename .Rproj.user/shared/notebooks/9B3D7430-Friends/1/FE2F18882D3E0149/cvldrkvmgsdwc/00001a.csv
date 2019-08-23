@@ -1,0 +1,9 @@
+"0","for (i in Season){
+  for (j in Episode){
+    ifelse((url.exists(paste0(""https://fangj.github.io/friends/season/"",i,j,"".html"")))==""FALSE"",
+    extractscript(i,j),print("" ""))
+  }
+}
+"
+"2","Error in read_html(url) : could not find function ""read_html""
+"
